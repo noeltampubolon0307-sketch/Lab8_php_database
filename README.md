@@ -114,7 +114,7 @@ Penjelasan:
 - `mysqli_connect()` membuka koneksi ke MySQL.
 - Jika koneksi gagal, tampil pesan "Koneksi ke server gagal." dan program berhenti (`die()`). Jika berhasil, tampil "Koneksi berhasil".
 
-<img width="574" height="360" alt="image" src="https://github.com/user-attachments/assets/16987919-22e3-4f0f-b8af-a7ee90941e3d" />
+<img width="454" height="288" alt="php n1" src="https://github.com/user-attachments/assets/85460628-fa98-40f1-a72a-cb897d8e4552" />
 
 
 Hasil saat `koneksi.php` dibuka di browser: muncul tulisan **Koneksi berhasil**.
@@ -134,15 +134,15 @@ Bagian utama kodenya:
 - Jika tidak ada data, tampil tulisan "Belum ada data".
 - Link **Tambah Barang** mengarah ke `tambah.php`.
 
-<img width="584" height="706" alt="image" src="https://github.com/user-attachments/assets/53793aed-5dbd-41d2-878c-970efd3564cd" />
+<img width="712" height="707" alt="php n2" src="https://github.com/user-attachments/assets/3e1457ed-58e4-4201-915a-0db07bc85765" />
 
 
-<img width="840" height="305" alt="image" src="https://github.com/user-attachments/assets/9925775e-be24-41b0-9f02-4c2dfc63d92e" />
+<img width="1024" height="527" alt="php n3" src="https://github.com/user-attachments/assets/4aba964c-e1c3-4f98-8a6e-c7da3480452d" />
 
 
 Hasil di browser (`http://localhost/Lab8_PHP_Database/`): ketiga data barang tampil di tabel **Data Barang**. Gambar belum muncul karena file gambarnya belum ada di folder `gambar/`.
 
-<img width="1062" height="210" alt="image" src="https://github.com/user-attachments/assets/db59f760-2a4f-4545-9772-c25d97a49234" />
+<img width="1522" height="383" alt="php n4" src="https://github.com/user-attachments/assets/54efaab9-b40d-4f96-8501-2f09d318a74a" />
 
 
 ## Langkah 6 – Menambah Data (`tambah.php`)
@@ -158,20 +158,23 @@ Alur kerjanya:
 
 Form memiliki isian Nama Barang, Kategori (pilihan Komputer, Elektronik, Hand Phone), Harga Jual, Harga Beli, Stok, dan File Gambar.
 
-<img width="460" height="404" alt="image" src="https://github.com/user-attachments/assets/f0d6baeb-83b1-4bf0-ba23-2ba99b80bdc9" />
+<img width="898" height="707" alt="php n5" src="https://github.com/user-attachments/assets/e345d41c-38f7-4e91-bfed-209995097747" />
 
 
-<img width="506" height="546" alt="image" src="https://github.com/user-attachments/assets/a5f5bc32-a968-453d-b950-e91ffe2febce" />
+<img width="706" height="710" alt="php n6" src="https://github.com/user-attachments/assets/c5416b45-75fa-47a5-b0cd-f9b011aa6156" />
+
+<img width="637" height="255" alt="php n7" src="https://github.com/user-attachments/assets/a5d348cf-5c42-484b-9c64-481eae692506" />
 
 
 
-Contoh pengisian form: menambah barang **Rog Tuf Gaming**, kategori Komputer, harga 22000000, stok 5.
 
-<img width="372" height="348" alt="image" src="https://github.com/user-attachments/assets/eec0960f-94c9-4d88-9efc-0beaf7ec151e" />
+Contoh pengisian form: menambah barang **HP IPHONE 18 PRO MAX BURGUNDY 2TB**, kategori Hand Phone, harga 5000000, stok 8.
+
+<img width="542" height="436" alt="PHP N8" src="https://github.com/user-attachments/assets/98cca001-9ca9-44d5-ac27-7a86cddca024" />
 
 
 Setelah menekan **Simpan**, data baru muncul di tabel pada halaman `index.php`.
-<img width="905" height="211" alt="image" src="https://github.com/user-attachments/assets/ba890563-261b-42dc-a181-3ac13053f45f" />
+<img width="1535" height="361" alt="php n9" src="https://github.com/user-attachments/assets/7c11bd74-7406-402a-9ce2-1e8eb4885964" />
 
 
 
@@ -187,18 +190,18 @@ Alur kerjanya:
 5. Saat **Simpan** ditekan, query `UPDATE data_barang SET ... WHERE id_barang = ...` dijalankan. Kolom gambar hanya diubah kalau ada file baru yang diunggah.
 6. Setelah itu halaman diarahkan kembali ke `index.php`.
 
-<img width="563" height="529" alt="image" src="https://github.com/user-attachments/assets/9b6c49f3-5434-4e91-b290-a333c922c667" />
+<img width="831" height="710" alt="php n10" src="https://github.com/user-attachments/assets/2702dfd0-f598-4f35-91bf-00ed31bfd788" />
 
 
-<img width="659" height="481" alt="image" src="https://github.com/user-attachments/assets/17aa9a07-d47e-43da-9c49-6f9a1c13d098" />
+<img width="1060" height="691" alt="php n11" src="https://github.com/user-attachments/assets/cfe9b102-0e58-4ab1-adef-da7ad41dab4e" />
 
 
-<img width="669" height="353" alt="image" src="https://github.com/user-attachments/assets/cc8a42bf-2159-40ca-9de2-6f4212d80f29" />
+<img width="904" height="444" alt="php n12" src="https://github.com/user-attachments/assets/d4077374-fb51-4f44-b948-6ccc2d020bf6" />
 
 
 Tampilan form **Ubah Barang** dengan data lama sudah terisi di setiap kolom:
 
-<img width="468" height="425" alt="image" src="https://github.com/user-attachments/assets/d727930b-1553-4763-a23e-036b064b7391" />
+<img width="587" height="410" alt="yes " src="https://github.com/user-attachments/assets/97df6c82-02c4-4753-aab0-525ea068a594" />
 
 
 ## Langkah 8 – Menghapus Data (`hapus.php`)
@@ -220,12 +223,12 @@ Penjelasan:
 - `DELETE FROM data_barang WHERE id_barang = ...` menghapus baris tersebut.
 - Setelah itu halaman kembali ke `index.php`.
 
-<img width="966" height="299" alt="image" src="https://github.com/user-attachments/assets/91496408-5a9f-47f1-93e9-f6b6486c9d6b" />
+<img width="542" height="166" alt="hapus php" src="https://github.com/user-attachments/assets/aa402c34-7c00-4aef-a4c2-eed2db155a96" />
 
 
 Saat link **Hapus** diklik, muncul kotak konfirmasi "Yakin ingin menghapus data ini?". Pilih **Oke** untuk menghapus atau **Batal** untuk membatalkan.
 
-<img width="975" height="251" alt="image" src="https://github.com/user-attachments/assets/e2c77619-437d-462d-a160-0b7d803e03a7" />
+<img width="1535" height="453" alt="edn php" src="https://github.com/user-attachments/assets/2fdc8477-0ac3-4bff-a6f8-3fdd08047434" />
 
 
 ---
